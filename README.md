@@ -2,7 +2,7 @@
 
 WEB API ระบบจัดการสินค้า CRUD (สร้าง,ดู,แก้ไข,ลบ) โดยใช้
 - EF Core
-- Data Transfer Object (DTOs)
+- Data Transfer Objects (DTOs)
 - แยกชั้น Interface, Service, Controller
 
 ## RUN
@@ -14,7 +14,7 @@ dotnet tool install --global dotnet-ef
 dotnet ef database update
 ```
 
-รัน webapi
+รัน WEB API
 
 ```bash
 dotnet run
