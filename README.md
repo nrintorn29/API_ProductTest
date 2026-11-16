@@ -11,13 +11,13 @@ WEB API ระบบจัดการสินค้า CRUD (สร้าง,�
 
 ```bash
 dotnet tool install --global dotnet-ef
-dotnet ef database update
+dotnet ef database update --project src/API_Products
 ```
 
 รัน WEB API
 
 ```bash
-dotnet run
+dotnet run --project src/API_Products
 ```
 ทดสอบ WEB API ที่ URL `http://localhost:5055/scalar/v1`
 
