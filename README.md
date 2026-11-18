@@ -21,6 +21,11 @@ dotnet run --project src/API_Products
 ```
 ทดสอบ WEB API ที่ URL `http://localhost:5055/scalar/v1`
 
+รัน Test
+```bash
+dotnet test
+```
+
 ## Endpoints
 |Method|URL|ความหมาย|
 |---|---|---|
